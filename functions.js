@@ -3,14 +3,15 @@
 //Challenge 1
 // put this code block into a function, add a return statement, and call the function
 
-
-let bestPet = 'dog';
-let petName = 'indiana'
-let petString = 'The best pet is a ' + bestPet + ' named ' + petName;
-// return the petString here
-
+function bestPets() {
+  let bestPet = 'dog';
+  let petName = 'indiana'
+  let petString = 'The best pet is a ' + bestPet + ' named ' + petName;
+  // return the petString here
+  return petString;
+}
 // call your function here
-
+bestPets();
 
 
 //Challenge 2
